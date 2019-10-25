@@ -1,0 +1,9 @@
+---
+applications:
+- name: jersey-pcf
+  memory: 768M
+  instances: 1
+  random-route: false
+  path: target\JerseyDemos.war
+  buildpacks:
+  - https://github.com/cloudfoundry/java-buildpack.git
